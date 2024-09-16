@@ -8,7 +8,7 @@
             Padding="30,0"
             Spacing="25">
             <Image
-                Source="dotnet_bot.png"
+                Source="k6.jpg"
                 HeightRequest="185"
                 Aspect="AspectFit"
                 SemanticProperties.Description="dot net bot in a race car number eight" />
@@ -26,10 +26,16 @@
 
             <Button
                 x:Name="CounterBtn"
-                Text="Click me" 
+                Text="Rzuć kostką" 
                 SemanticProperties.Hint="Counts the number of times you click"
                 Clicked="OnCounterClicked"
                 HorizontalOptions="Fill" />
+            <Label
+                x:Name="RollValueLabel"
+                Text="Wynik rzutu"
+                FontSize="Large"
+                HorizontalTextAlignment="Center"
+                />
         </VerticalStackLayout>
     </ScrollView>
 
